@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/cstimage"
+        android:background="@drawable/ic_launcher_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cstextview"
+        android:ellipsize="end"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:fontFamily="serif-monospace"
+        android:maxLines="1"
+        android:text="tittle"
+        android:layout_below="@+id/cstimage"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_below="@+id/cstextview"
+        android:id="@+id/dec"/>
+</RelativeLayout>

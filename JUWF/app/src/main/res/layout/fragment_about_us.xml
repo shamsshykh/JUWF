@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ju.saqib.juwf.Fragments.About_us">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction:"
+        android:fontFamily="monospace"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/intro"
+        android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/intro"
+            android:textAlignment="inherit"
+            android:text="Jinnah University for Women established in 1998 under the umbrella of Anjuman-e-Islamia Trust founded by Al-Haj Moulvi Reyazuddin Ahmed (T.I).
+
+The University is one of the 17 institutions established by the Trust but is the most important, as the dream of the founder to establish a separate University for girls came true.
+
+The University supports intellectual and personal growth of students, preparing them to become transformational citizen with sound ethical; culture and religious values. Jinnah University for Women focuses on priorities in increasing the quality of service delivery, providing practical cum industrial oriented syllabus, promoting total quality management of educational programs, ensuring a valuable campus environment for the faculty and students, increasing value added programs, convergence of technologies, taking the benefits of research and development to the communities in need.
+
+To achieve these goals, the girls are empowered through quality education to take best advantage of their educational opportunities and they are endorsed with critical thoughts, leading them to assume roles in leadership, sense of responsibility, and service to the society. Inherent in this broad mission are methods of instruction, research, extensive training, and public service that are skillfully designed to educate our students and impart keen ambition and aspiration to serve their own kind. Basic to every purpose of the University is the investigation of truth and remodeling of excellence.
+
+The University has educational tree of 04 Faculties; 28 Departments; BS: 4 years, Masters: 2 years, Pharm-D 5 years.
+
+In addition the University admits regularly students in MS/M.Phil/Ph.D programs. So far the University has produced 29 MS/M.Phil and 21 Ph.D Scholars in the four faculties respectively.
+
+Further the University publishes three Journals namely Journal of Biological Research  Applied Sciences, Journal of Social Sciences  Business Management, Journal of Pharmacy and Pharmaceutical Sciences, under the Reyazuddin Ahmed Research and Development Society.
+
+The University has 252 regular teaching faculty with 30 Ph.Ds and total of 32 MS/M.Phil." />
+    </RelativeLayout>
+
+</FrameLayout>

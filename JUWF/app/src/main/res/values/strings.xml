@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">JUWF</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="register">Register</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="login">Login</string>
+    <string name="not_here">Not here?\nCreate an account</string>
+
+
+    <string name="enter_name">Please Enter Name</string>
+    <string name="enter_id">Please Enter valid Email Address</string>
+    <string name="password_6char">Password must be atleat 6 characters</string>
+    <string name="password_dont_match">Password dont match</string>
+    <string name="creating_user">Creating user...</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="password_incorrect">Password Incorrect</string>
+    <string name="authenticating">Authenticating...</string>
+    <string name="login_signup_enter_registered_id">Enter your registered email id</string>
+    <string name="sending_email">Sending Email...</string>
+    <string name="instruction_sent">We have sent you instructions to reset your password!</string>
+    <string name="failed_to_send_instructions">Failed to send reset email!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Event">
+        <item>Please Select Event</item>
+        <item>Game Event</item>
+        <item>farewell</item>
+        <item>Convocation</item>
+    </string-array>
+    <string-array name="Year">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+    </string-array>
+
+</resources>

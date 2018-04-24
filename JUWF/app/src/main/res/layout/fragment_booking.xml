@@ -1,0 +1,210 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ju.saqib.juwf.Fragments.Booking">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="monospace"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Booking Datail"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+             android:id="@+id/name"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="Abc"
+            android:fontFamily="serif-monospace"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_below="@+id/name"
+
+            android:layout_marginTop="10dp"
+            android:id="@+id/batch"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Batch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Abc"
+
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/fname"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:id="@+id/fbatch"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/batch"
+            android:id="@+id/enrolment"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Enrolment" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:text="Abc"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/fbatch"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:id="@+id/fenrolment"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/enrolment"
+            android:id="@+id/email"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:text="Abc"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/fenrolment"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:id="@+id/femail"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/email"
+            android:id="@+id/phone"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:id="@+id/fphone"
+            android:text="Abc"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/femail"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/phone"
+            android:id="@+id/year"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Year" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:id="@+id/fdatee"
+            android:text="Abc"
+
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/phone"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/year"
+            android:id="@+id/event"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:text="Event Name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:text="Abc"
+            android:id="@+id/feventnames"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/fdatee"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

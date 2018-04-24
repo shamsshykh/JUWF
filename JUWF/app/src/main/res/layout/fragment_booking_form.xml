@@ -1,0 +1,114 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    tools:context="com.ju.saqib.juwf.Fragments.BookingForm">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:textSize="22dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Type Your Name" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:id="@+id/batch"
+            android:textSize="22dp"
+            android:hint="Type Your Batch"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/enrolment"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="serif-monospace"
+            android:hint="Type Your Enrolment No"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="serif-monospace"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="22dp" />
+
+            <Spinner
+                android:id="@+id/year"
+                android:layout_width="110dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="2"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColorHint="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:inputType="text"
+            android:id="@+id/email"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif-monospace"
+            android:hint="Type Your E-mail"/>
+        <Spinner
+            android:id="@+id/event"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:layout_height="40dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/msg"
+            android:text="Messege" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:id="@+id/btnevent"
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+</FrameLayout>
